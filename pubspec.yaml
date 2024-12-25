@@ -1,0 +1,40 @@
+name: tasky_apis
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.7.0
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  pretty_dio_logger: ^1.4.0
+  shared_preferences: ^2.3.4
+  logger: ^2.5.0
+  image_picker: ^1.1.2
+  intl: ^0.20.1
+  # awesome_dialog: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/fonts/DMSans/DMSans-Regular.ttf
+        - asset: assets/fonts/DMSans/DMSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/DMSans/DMSans-bold.ttf
+          weight: 700
